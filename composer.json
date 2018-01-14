@@ -1,0 +1,21 @@
+{
+    "name": "alshaya/word-count",
+    "description": "Get the word count with ranking.",
+    "type": "library",
+    "require": {
+        "php": "^5.6"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Sankeerth Kanth",
+            "email": "sankeerthtrk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+        "psr-4": {
+            "alshaya\\WordCount\\": "src/"
+        }
+    }
+}
